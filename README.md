@@ -13,8 +13,9 @@ approximate_edge_length: Approximates the length of the boundary edge by discret
 
 2. Surface Area Approximation
 To approximate the surface area, we compute the partial derivatives of the position vector with respect to u and v, then take the cross product of these vectors at each mesh point. The magnitude of the cross product gives the infinitesimal area element:
-
 Area≈∑∥∂r/∂u×∂r/∂v∥⋅Δu⋅Δv
+
+
 4. Challenges Faced
 Numerical stability: Calculating the cross product and its magnitude over a discretized grid required careful attention to avoid numerical instability.
 
